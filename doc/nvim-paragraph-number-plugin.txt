@@ -1,0 +1,30 @@
+*nvim-paragraph-number-plugin.txt* A Python plugin to display paragraph numbers.
+
+                              Display Paragraph Number
+
+==============================================================================
+
+CONTENTS                                 *nvim-paragraph-number-plugin-contents*
+
+    1. Introduction .................... |nvim-paragraph-number-plugin-intro|
+
+
+Original Author:    Dylan Madisetti
+License:            MIT
+
+INTRODUCTION                                *nvim-paragraph-number-plugin-intro*
+
+Neovim remote plugin to display paragraph numbers, and the relative line numbers
+in said paragraphs. To toggle this ability, run:
+
+    :ToggleParagraphNumber
+
+You may not see these numbers until you appropriately set the `signcolumn`.
+For manual formatting setup, consider something like
+
+    :highlight CursorLineNR ctermbg=236 ctermfg=240
+    :highlight Hidden ctermbg=234 ctermfg=234
+    :highlight LineNum ctermbg=234 ctermfg=238
+    :set signcolumn=yes:5
+    :set cursorline
+    :set number
