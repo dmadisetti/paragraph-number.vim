@@ -8,6 +8,9 @@ Paragraph centered line numbering for efficient writing.
 Best served with [Goyo.vim](https://github.com/junegunn/goyo.vim) and [limelight.vim](https://github.com/junegunn/limelight.vim).
 Works on 256-color terminal or on GVim.
 
+> **Warning**
+> Kinda broken? - but works for me. Use at your own risk.
+
 Usage
 -----
 
@@ -26,6 +29,11 @@ You'll probably want something like:
     :set number
 ```
 
+### Installation
+With [Plug](https://github.com/junegunn/vim-plug),
+```vim
+Plug 'dmadisetti/paragraph-number.vim', { 'do': ':UpdateRemotePlugins',  'for': ['markdown', 'tex'] }
+```
 
 License
 -------
