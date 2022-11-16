@@ -23,12 +23,12 @@ Usage
 You'll probably want something like:
 
 ```vim
-    :highlight CursorLineNR ctermbg=236 ctermfg=240
-    :highlight Hidden ctermbg=234 ctermfg=234
-    :highlight LineNum ctermbg=234 ctermfg=238
-    :set signcolumn=yes:5
-    :set cursorline
-    :set number
+:highlight CursorLineNR ctermbg=236 ctermfg=240
+:highlight Hidden ctermbg=234 ctermfg=234
+:highlight LineNum ctermbg=234 ctermfg=238
+:set signcolumn=yes:5
+:set cursorline
+:set number
 ```
 
 ### Installation
