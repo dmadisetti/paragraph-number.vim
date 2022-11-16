@@ -3,10 +3,12 @@ paragraph-number.vim
 
 Paragraph centered line numbering for efficient writing.
 
-![](https://raw.github.com/dmadisetti/paragraph-number.vim/main/doc/money-shot.png)
+<img src="https://raw.github.com/dmadisetti/paragraph-number.vim/main/doc/money-shot.png" align=left width=45%/>
 
 Best served with [Goyo.vim](https://github.com/junegunn/goyo.vim) and [limelight.vim](https://github.com/junegunn/limelight.vim).
 Works on 256-color terminal or on GVim.
+
+It's subtle, but nice way to refer to a given sentence or paragraph.
 
 > **Warning**
 > Kinda broken? - but works for me. Use at your own risk.
